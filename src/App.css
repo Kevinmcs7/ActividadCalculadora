@@ -1,0 +1,43 @@
+/* Estilos para la calculadora */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #d3f672; /* Color de fondo gris claro */
+}
+
+.container {
+  text-align: center;
+}
+
+input[type="text"] {
+  margin: 5px;
+  padding: 5px;
+  width: 150px;
+}
+
+button {
+  margin: 20px;
+  padding: 15px; /* Ajusta el padding para hacer el botón circular */
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff; /* Color de fondo azul */
+  color: white; /* Color de texto blanco */
+  border: none;
+  border-radius: 50%; /* Hace que el botón sea circular */
+  width: 50px; /* Ajusta el ancho del botón */
+  height: 50px; /* Ajusta la altura del botón */
+}
+
+button:hover {
+  background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón */
+}
+
+p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+
